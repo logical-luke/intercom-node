@@ -545,6 +545,11 @@ const response = await client.conversations.replyByIdAsUser({
     body: 'blablbalba',
     intercomUserId: '123',
     attachmentUrls: '345',
+    attachmentFiles: {
+        content_type: 'image/jpeg',
+        name: 'bebra.jpg',
+        data: 'base64 data',
+    }
 });
 ```
 
